@@ -1,0 +1,33 @@
+body {
+
+    font-family: Sans-serif;
+    text-align: left;
+    padding: 20px;
+    width: 50%;
+
+}
+
+#formMain {
+
+    padding: 3px 6px;
+    font-family: Sans-serif;
+
+}
+
+#formMain > input {
+
+    margin: .4rem;
+
+}
+
+
+
+#formSubmitBtn {
+
+}
+
+.gember {
+
+    padding-left: 25px;
+
+}

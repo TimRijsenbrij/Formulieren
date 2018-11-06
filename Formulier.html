@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inloggen</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<h2>voorbeeldformulier</h2>
+<div class="form-group">
+    <form action="/action_page.php" id="formMain">
+        <label for="formVoornaam">Voornaam:</label><br/>
+        <input type="text" name="Voornaam" value="" placeholder="Mickey" id="formVoornaam" required>
+        <br>
+        <br>
+        <label for="formTussenv">Tussenvoegsel:</label><br/>
+        <input type="text" name="tussenvoegsel" value="" id="formTussenv" placeholder="van der" required>
+        <br>
+        <br>
+        <label for="formAchternaam">Achternaam:</label><br/>
+        <input type="text" name="Achternaam" value="" id="formAchternaam" placeholder="Mouse" required>
+        <div class="form-check">
+            <p>Wat is jouw favoriete eten?</p>
+            <input type="checkbox" name="shoarma1" value="shoarma1" id="formFood1"> Shoarma<br>
+            <input type="checkbox" name="shoarma2" value="shoarma2" id="formFood2"> Ook shoarma<br>
+            <input type="checkbox" name="shoarma3" value="shoarma3" id="formFood3"> Nog meer shoarma<br>
+        </div>
+</div>
+<div class="gember"><br>
+    <div>
+        <input type="radio" id="male" value="male" name="gender">
+        <label for="male">Man</label>
+    </div>
+    <div>
+        <input type="radio" id="female" value="female" name="gender">
+        <label for="female">Vrouw</label>
+    </div>
+    <div>
+        <input type="radio" id="alien" value="alien" name="gender" checked>
+        <label for="alien">Alien?</label>
+    </div>
+<br>
+</div>
+<div class="form-group">
+    <label for="42069">kleur oogies</label>
+    <select id="42069" name="kleur" required>
+        <option value="groen" selected>groen</option>
+        <option value="bruin">bruin</option>
+        <option value="blauw">blauw</option>
+        <option value="rood">rood</option>
+        <option value="paars?">paars?</option>
+    </select>
+    <br>
+    <label for="formDoB">Geboortedatum</label>
+    <input type="date" name="verjaardag" id="formDoB">
+    <br><br>
+    <br>
+    <textarea name="message" rows="10" cols="30">
+    </textarea>
+    <br>
+    <button role="button" type="submit" id="formSubmitBtn">Submit</button>
+    <input type="reset">
+
+    </form>
+</div>
+
+
+</body>
+</html>
